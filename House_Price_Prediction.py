@@ -47,11 +47,15 @@ test_house_price_norm = normalize(test_house_price)
 # These place holders are used to pass the data to the gradient descent algorithm.
 tf_house_size = tf.placeholder("float", name="house_size")
 tf_house_price = tf.placeholder("float", name="price")
+print(tf_house_price)
+print(tf_house_size)
 
 # Let us define the tensor variables which changes as we train the dataset.
 # These values are initialized to some random values to start with.
 tf_size_factor = tf.Variable(np.random.randn(), name="size_factor")
 tf_price_offset = tf.Variable(np.random.randn(), name="price_offset")
+print(tf_size_factor)
+print(tf_price_offset)
 
 # Define the inference functions that predicts the house price based on the house size.
 tf_price_pred = tf.add(tf.multiply(tf_size_factor, tf_house_size), tf_price_offset)
