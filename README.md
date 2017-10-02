@@ -1,7 +1,8 @@
 # tensorflow_samples
-My Tensor flow samples
-This repository has set of samples in learning TensorFlow.
 
-1. House Price - Simple house price prediction given the house size using tensor flow
-2. Simple / Deep MNIST - This is for predicting the MNIST data using Convolution Neural Network.
-3. Keras / TF Learn Samples - This is set of samples using the library Keras and TFLearn.
+This repository has set of samples in learning TensorFlow. Most of the samples are from doing the following courses in Pluralsight.
+
+A. Understanding the Foundations of Tensor Flow - https://app.pluralsight.com/library/courses/tensorflow-understanding-foundations/description
+B. Tensor Flow - Getting Started - https://app.pluralsight.com/library/courses/tensorflow-getting-started/description
+
+
